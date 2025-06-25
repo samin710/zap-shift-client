@@ -46,7 +46,7 @@ const DashboardLayout = () => {
           {/* Sidebar content here */}
           <ProfastLogo></ProfastLogo>
           <li>
-            <a>Home</a>
+            <NavLink to={"/"}>Home</NavLink>
           </li>
           <li>
             <NavLink to="/dashboard/myParcels">My Parcels</NavLink>
